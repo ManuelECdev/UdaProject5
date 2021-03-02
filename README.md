@@ -1,6 +1,6 @@
-#Project summary
+## Project summary
 
-How to deploy the infrastructure:
+## How to deploy the infrastructure:
 
 Execute the below command
 aws cloudformation create-stack --stack-name primaryvpc --template-body file://vpc.yaml  --parameters file://vPC1Parameters.json  --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-west-2
